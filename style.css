@@ -1,7 +1,33 @@
+body {
+    background-image: url('Assets/pozadi.jpg');
+    background-size: cover;
+}
+
 h1{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 p{
+    display: flex;
     font-size: 20px;
-    background-color: #efd404;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #efd404; */
+}
+.uvod{
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoUvod{
+    display: block;
+    padding-left: auto;
+    padding-right: auto;
+    margin-right: 5px;
+    padding-top: 10px;
 }
