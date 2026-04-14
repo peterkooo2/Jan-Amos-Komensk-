@@ -161,3 +161,9 @@ h3{
 .videos{
     margin-left: 150px;
 }
+
+.videoDiv{
+    position: absolute;
+    top: 35%;
+    left: 50px;
+}
