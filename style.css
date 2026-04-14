@@ -1,9 +1,8 @@
 body {
-    background-image: url('Assets/pozadi.jpg');
-    background-size: cover;
+    background-color: #2596be;
 }
 
-.text{
+/*.text{
     display: flex;
     text-align: center;
     margin-left: auto;
@@ -11,7 +10,20 @@ body {
     font-size: 20px;
     margin-left: auto;
     margin-right: auto;
-    /* background-color: #efd404; */
+    background-color: #efd404;
+}*/
+h1{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.galeryNahled{
+    display: block;
+    text-align: left;
+    width: fit-content;
+    margin: 5px;
 }
 
 .uvod{
@@ -23,13 +35,6 @@ body {
     justify-content: center;
 }
 
-.videoUvod{
-    display: block;
-    padding-left: auto;
-    padding-right: auto;
-    margin-right: 5px;
-    padding-top: 10px;
-}
 
 .button{
     display: block;
@@ -38,9 +43,22 @@ body {
     color: black;
     border-radius: 5px;
     width: fit-content;
-    margin: 5px;
-    align-self: center;
+    margin: 5px auto;
 }
+
+.obrazJAK{
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    width: 300px;
+}
+.obrazJAK{
+    position: absolute;
+    top: 0cap;
+    left: 50%;
+}
+
 /*.divButton{
     display: flex;
     justify-content: center;
