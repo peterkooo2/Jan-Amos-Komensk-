@@ -13,6 +13,7 @@ h1{
 
 h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
     display: block;
     text-align: center;
     margin-left: auto;
@@ -115,6 +116,15 @@ h3{
     transition: 0.1s;
 }
 
+.obrazky{
+    display: block;
+    position: absolute;
+    width: 700px;
+    height: 455px;
+    top: 42%;
+    left: 32%;
+}
+
 .obrazJAK{
     display: block;
     margin-left: 5px;
@@ -133,4 +143,21 @@ h3{
     color: black;
     border-radius: 5px;
     width: fit-content;
+    margin: 5px;
+}
+
+.buttonsDiv{
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 5px;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videos{
+    margin-left: 150px;
 }
