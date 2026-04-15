@@ -167,3 +167,10 @@ h3{
     top: 35%;
     left: 50px;
 }
+
+.instaButton:hover{
+    background: url(Assets/JAK_bye.png) no-repeat center center;
+    background-size: contain;
+    scale: 2.5;
+    transition: 0.1s;
+}
