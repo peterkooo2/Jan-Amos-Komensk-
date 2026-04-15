@@ -1,0 +1,163 @@
+body {
+    background-color: #2596be;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+}
+
+.galeryNahled{
+    display: flex;
+    text-align: left;
+    width: fit-content;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.uvod{
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.infButton{
+    display: flex;
+    padding: 10px 20px;
+    background: #efd404;
+    color: black;
+    border-radius: 5px;
+    width: fit-content;
+    justify-content: center;
+    margin: 75px 5px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.videaButton{
+    display: block;
+    padding: 10px 20px;
+    background: #efd404;
+    color: black;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    top: 75%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+}
+
+.backButton{
+    display: block;
+    padding: 10px 20px;
+    background: #efd404;
+    color: black;
+    border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.instaButton{
+    display: block;
+    padding: 10px 20px;
+    background: url(Assets/instaLogo.png) no-repeat center center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+.instaText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    text-align: right;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    top: 95px;
+}
+
+.instaDiv{
+    display: flex;
+    text-align: right;
+    width: fit-content;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.infButton:hover, .videaButton:hover, .backButton:hover, .button:hover{
+    background: #d9b404;
+    scale: 1.1;
+    transition: 0.1s;
+}
+
+.obrazky{
+    display: block;
+    position: absolute;
+    width: 700px;
+    height: 455px;
+    top: 42%;
+    left: 32%;
+}
+
+.obrazJAK{
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    width: 300px;
+    position: absolute;
+    top: 20px;
+    left: 42%;
+}
+
+.button{
+    display: block;
+    padding: 10px 20px;
+    background: #efd404;
+    color: black;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px;
+}
+
+.buttonsDiv{
+    display: block;
+    text-align: center;
+    width: fit-content;
+    margin: 5px;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videos{
+    margin-left: 150px;
+}
