@@ -68,6 +68,8 @@ h3{
 
 .backButton{
     display: block;
+    font-size: 20px;
+    font-weight: normal;
     padding: 10px 20px;
     background: #efd404;
     color: black;
